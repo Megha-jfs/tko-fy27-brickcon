@@ -20,7 +20,7 @@ from pyspark.sql.window import Window
 # Update these to match your Unity Catalog configuration
 CATALOG = "catalog_tkofy27_9ev672"
 SCHEMA = "shopper_recommendation"
-VOLUME_PATH = f"/Volumes/{CATALOG}/{SCHEMA}/raw_data"
+VOLUME_PATH = f"/Volumes/{CATALOG}/{SCHEMA}/mock_data"
 
 # COMMAND ----------
 
