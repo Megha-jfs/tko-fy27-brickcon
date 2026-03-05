@@ -18,8 +18,8 @@ from pyspark.sql import functions as F
 from pyspark.sql.window import Window
 
 # Update these to match your Unity Catalog configuration
-CATALOG = "tko_fy27_brickcon"
-SCHEMA = "loyalty_engine"
+CATALOG = "catalog_tkofy27_9ev672"
+SCHEMA = "shopper_recommendation"
 VOLUME_PATH = f"/Volumes/{CATALOG}/{SCHEMA}/raw_data"
 
 # COMMAND ----------
